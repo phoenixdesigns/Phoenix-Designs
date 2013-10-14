@@ -1,1 +1,0 @@
-document.write("<a href=\"http://a.lakequincy.com/c.ashx?channel=1&format=8&pageid=0EB86159-975C-6F6B-5760-891F21D4F42C&publisher=43&target=_blank&ypos=0&zone=1&country=UK&placement=674&creative=674&\" target=\"_blank\" ><img src=\"http://a.lakequincy.com/img/maxivista_en_tablet_728x90.gif\" border=\"0\" /></a>");
