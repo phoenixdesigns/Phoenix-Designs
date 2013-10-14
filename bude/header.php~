@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="author" content="Graham Tysall" />
+	<meta name="keywords" content="dancing, jive, rock, roll, bude,rock n roll, rockabilly" />
+	<meta name="description" content="Bude Jive Club." />
+	<meta name="robots" content="all" />
+	<title>Bude Jive Club</title>
+	<link href="bude.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+
+<body>
+<div id="container">
+	<div id="top">
+		<ul id="navigation">
+			<li><a href="./index.php">home</a></li>
+			<li><a href="./diary.php">diary</a></li>
+			<li><a href="./club.php">club</a></li>
+			<li><a href="./links.php">links</a></li>
+		</ul>
+		<h1 class="branding">Bude Jive Club</h1>
+		<p class="branding">Jiving to live</p>
+	</div>
+<?php
+?>
