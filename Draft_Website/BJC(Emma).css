@@ -1,0 +1,25 @@
+/* CSS created by Phoenix Designs. This cannot be copied unless permission is gained. */
+
+* { margin: 0; padding: 0; font-size: 18px; font-family: Arial, sans-serif; }
+html { background-color: white; }
+#wrapper { 
+	background-color: white;
+	width: 110%;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	margin-bottom: 5%; 
+}
+#mainNav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+#mainNav ul li {
+	display: inline;
+}
+#mainNav ul li a {
+	text-decoration: none;
+	padding: .2em 1em;
+}
