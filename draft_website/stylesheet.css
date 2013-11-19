@@ -10,16 +10,22 @@
 |   unless permission is gained.
 +------------------------------------------------------------*/
 
+/*---------------- MAIN PAGE LAYOUT & STYLE ----------------*/
+
 * { margin: 0; padding: 0; font-size: 18px; font-family: Arial, sans-serif; }
 
 html { 
-	background-image: url(./draft_website/images/background.png);
+	background-image: url(/Users/jrdjarrold/Desktop/draft_website/images/background.png);
 }
 
-#wrapper { 
-	background-color: white;
-	width: 100%;
+body {
+	width: 1000px;
+	padding-bottom: 20px;
+	margin: auto;
+	background-color: rgba(255, 255, 255, .2);
 }
+
+/*---------------- PAGE NAV BAR ----------------*/
 
 #mainNav ul {
 	list-style-type: none;
@@ -38,6 +44,17 @@ html {
 	color: white;
 }
 
+#head {
+	text-align: center;
+}
+
+#newsBar {
+	background-color: orange;
+	color: white;
+}
+
+/*---------------- OTHER ----------------*/
+
 #footer {
 	margin-top: 20px;
 	padding-right: 10px;
@@ -49,18 +66,5 @@ html {
 
 /* ________________________________________________ */
 
-#head {
-	text-align: center;
-}
 
-#newsBar {
-	background-color: orange;
-	color: white;
-}
 
-body {
-	width: 1000px;
-	padding-bottom: 20px;
-	margin: auto;
-	background-color: rgba(255, 255, 255, .2);
-}
