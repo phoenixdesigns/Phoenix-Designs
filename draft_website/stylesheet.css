@@ -1,0 +1,66 @@
+/* CSS created by Phoenix Designs. This cannot be copied unless permission is gained. */
+
+/*------------------------------------------------------------+
+|	CSS Developmpted by Phoenix Designs
+|	Copyright (C) 2013 Phoenix Designs
+|	phoenixdesigns.cornwall@gmail.com
++-------------------------------------------------------------+
+|	This CSS file and all of the content has been
+|	developed by Phoenix Designs. This cannot be copied
+|   unless permission is gained.
++------------------------------------------------------------*/
+
+* { margin: 0; padding: 0; font-size: 18px; font-family: Arial, sans-serif; }
+
+html { 
+	background-image: url(/Users/jrdjarrold/Desktop/Draft_Website/imgaes/background.png);
+}
+
+#wrapper { 
+	background-color: white;
+	width: 100%;
+}
+
+#mainNav ul {
+	list-style-type: none;
+	text-align: center;
+	background-color: grey;
+	margin-top: -5px;
+}
+
+#mainNav ul li {
+	display: inline;
+}
+
+#mainNav ul li a {
+	text-decoration: none;
+	padding: .2em 1em;
+	color: white;
+}
+
+#footer {
+	margin-top: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+	text-align: right;
+	background-color: grey;
+	color: white;
+}
+
+/* ________________________________________________ */
+
+#head {
+	text-align: center;
+}
+
+#newsBar {
+	background-color: orange;
+	color: white;
+}
+
+body {
+	width: 1000px;
+	padding-bottom: 20px;
+	margin: auto;
+	background-color: rgba(255, 255, 255, .2);
+}
