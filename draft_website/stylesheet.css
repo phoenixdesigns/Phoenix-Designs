@@ -13,11 +13,7 @@
 * { margin: 0; padding: 0; font-size: 18px; font-family: Arial, sans-serif; }
 
 html { 
-<<<<<<< HEAD
 	background-image: url(/draft_website/images/background.png);
-=======
-	background-image: url(/Users/jrdjarrold/Desktop/Draft_Website/images/background.png);
->>>>>>> 892ad10b4cb1ed8de9d04fe5ffb80fb5af448c31
 }
 
 #wrapper { 
