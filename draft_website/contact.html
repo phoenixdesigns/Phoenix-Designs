@@ -1,17 +1,17 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" >
 	<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="author" content="Phoenix Designs" />
-	<meta name= "keywords" content="Bude Jive CLub, Living to Jive" />
-	<meta name= "description" content="Text" />
-	<meta name= "robots" content="all" />
-	<link rel="stylesheet" type="text/css" href="../Draft_Website/stylesheet.css" />
-	<title>Bude Jive Club - Contact</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="author" content="Phoenix Designs" />
+		<meta name= "keywords" content="Bude Jive CLub, Living to Jive" />
+		<meta name= "description" content="Text" />
+		<meta name= "robots" content="all" />
+		<link rel="stylesheet" type="text/css" href="../draft_website/stylesheet.css" />
+		<title>Bude Jive Club - Contact</title>
 	</head>
-<body>
-	<div id="head">
-		<img src="images/backgroundd.png" alt="Bude Jive Club, Living to Jive">
+	<body>
+		<div id="head">
+			<img src="images/backgroundd.png" alt="Bude Jive Club, Living to Jive">
 		<div id="mainNav">
 			<ul>
 				<li><a href="./homepage.html">Home</a></li>
@@ -26,33 +26,47 @@
 			<p>Clubs resumes Mon Sep 30th - 10 weeks for &pound32 or 6 weeks for &pound22!</p>
 		</div> <!-- newsBar Ends -->
 	</div> <!-- head Ends -->
-
-
-
-		<h3>Contact Us</h3>
+	<h3>Contact Us</h3>
 		<p>Fill in the form with any questions that you have.</p>
+			<form method="get" action="post">
+				<p class="required">* Required</p>
+				<div id="mailinglist">
+					<p><label class="field" for="fname"><span>*</span>Name:&nbsp;</label>
+						<input id="fname" name="fname" type="text" /></p>
+					<p><label class="field" for="subject">Subject&nbsp;</label>
+						<input name="subject" id="subject" type="text" /></p>
+					<p><label class="field" for="question"><span>*</span>Question:</label></p>
+					<p><textarea name="question" id="question" rows="6" cols="60"></textarea></p>
+					<p><input type="submit" id="submit" value="Submit" /></p>
+				<div> <!-- end of mailinglist -->
+			</form>
 		<p>Alternatively, you can get in contact with the following information.</p>
-
-		<h3>Mailing List</h3>
+		<p>Email: contactus@budejiveclub.com</p>
+		<p>Phone: 01726 879876</p>
+	<h3>Mailing List</h3>
 		<p>Enter your information below to be added to the mailing list. We will send out information about upcoming events and any changes of dates and time.</p>
 			<form action="" method="post">
-				<p>
-					<label for="firstname">First Name:</label> 
-						<input type="text" id="firstname"/>
-					<label for="lastname">Last Name:</label>
-						<input type="text" id="lastname"/>
-					<label for="email">Email Address:</label>
-						<input type="text" id="email"/>
-					<label for="retypeemail">Retype Email:</label>
-						<input type="text" id="retypeemail"/>
-				<input type="submit" value="Submit" /></p>
+				<p class="required">* Required</p>
+				<div id="mailinglist">
+					<p><label class="field" for="firstname"><span>*</span>First Name:</label> 
+						<input type="text" id="firstname"/></p>
+					<p><label class="field" for="lastname"><span>*</span>Last Name:</label>
+						<input type="text" id="lastname"/></p>
+					<p><label class="field" for="email"><span>*</span>Email Address:</label>
+						<input type="text" id="email"/></p>
+					<p><label class="field" for="retypeemail"><span>*</span>Retype Email:</label>
+						<input type="text" id="retypeemail"/></p>
+						<input type="submit" value="Submit" id="submit"/></p>
+				</div> <!-- end of mailinglist -->
 			</form>
 		<p>If you want to remove yourself from the mailing list, click <a href="./Removal(Emma).html">HERE.</a></p>
 	</body>
-
-<div id="footer">
-	<p>This is example text</p>
-</div>
+	<footer>
+		<div id="footer">
+			<p>This is example text</p></div>
+		</div>
+	</footer>
 </html>		
+
 
 				
