@@ -62,18 +62,13 @@ body {
 	text-align: right;
 	background-color: grey;
 	color: white;
+	clear: both;
 }
 
 /*---------------- FORM ----------------*/
 
-label.field	{
-	text-align: left;
-	width: 100px;
-	float: left;
-}
 
 #mailinglist p {
-	clear: both;
 	padding: 5px;
 }
 
@@ -86,5 +81,33 @@ label span, .required {
 	color: red;
 	font-weight: bold;
 }
+
+#contactform p {
+	clear: both;
+	padding: 5px;
+}
+
+#contactleft {
+	width: 460px;
+	height: 500px;
+	float: left;
+	background-color: rgba(255, 255, 255, .5);
+	margin: 10px;
+	padding: 10px;
+}
+
+#contactright {
+	width: 460px;
+	height: 500px;
+	float: right;
+	background-color: rgba(255, 255, 255, .5);
+	margin: 10px;
+	padding: 10px;
+}
+
+textarea {
+	width: 300px;
+}
+
 
 /* ________________________________________________ */
