@@ -120,6 +120,48 @@ textarea {
 	background-color: rgba(255, 255, 255, .5);
 }
 
-/* ________________________________________________ */
+/*---------------- LINKS PAGE ----------------*/
 
+#usefullinks {
+	width: 650px;
+	float: right;
+	background-color: rgba(255, 255, 255, .5);
+	margin-right, margin-top, margin-bottom: 10px;
+	margin-left: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	padding: 10px;
+}
+
+
+/*-------------------------------------*/
+
+ul {
+	list-style-type: none;
+}
+
+#linkstitle {
+	line-height: 50px;
+}
+
+#jiveimage {
+	float: left;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+#linkspagetitle {
+	text-align: center;
+}
+
+.pagelinks {
+	margin-left: 20px;
+	line-height: 30px;
+}
+
+.linkdescription {
+	font-size: 12px;
+	margin-left: 30px;
+}
 
