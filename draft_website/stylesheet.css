@@ -134,9 +134,6 @@ textarea {
 	padding: 10px;
 }
 
-
-/*-------------------------------------*/
-
 ul {
 	list-style-type: none;
 }
@@ -164,4 +161,39 @@ ul {
 	font-size: 12px;
 	margin-left: 30px;
 }
+
+/*---------------- HOMEPAGE PAGE ----------------*/
+
+.pagecontent_homepage_left {
+	width: 610px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 5px;
+	padding: 10px;
+	background-color: rgba(255, 255, 255, .5);
+}
+
+#pagecontent_homepage_right {
+	width: 320px;
+	height: 355px;
+	margin-left: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	padding: 10px;
+	background-color: rgba(255, 255, 255, .5);
+	float: right;
+	overflow: scroll;
+}
+
+#left_three {
+	float: left;
+	clear: both;
+}
+
+
+/*---- AMENDED CODED UNDER THIS LINE ----*/
+
+
 
