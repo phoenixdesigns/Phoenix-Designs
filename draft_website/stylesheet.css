@@ -77,11 +77,6 @@ body {
 	color: white;
 }
 
-label span, .required {
-	color: red;
-	font-weight: bold;
-}
-
 #contactform p {
 	clear: both;
 	padding: 5px;
