@@ -2,13 +2,13 @@
 
 /*------------------------------------------------------------+
 |	CSS Developmpted by Phoenix Designs
-|	Copyright (C) 2013 Phoenix Designs
+|	Copyright (C) 2014 Phoenix Designs
 |	phoenixdesigns.cornwall@gmail.com
 +-------------------------------------------------------------+
 |	This CSS file and all of the content has been
 |	developed by Phoenix Designs. This cannot be copied
 |   unless permission is gained.
-+------------------------------------------------------------*/
++-------------------------------------------------------------*/
 
 /*---------------- MAIN PAGE LAYOUT & STYLE ----------------*/
 
@@ -74,6 +74,18 @@ body {
 	padding: 2px;
 }
 
+#newsBar2 {
+	background-color: red;
+	color: white;
+	padding: 2px;
+}
+
+#newsBar3 {
+	background-color: green;
+	color: white;
+	padding: 2px;
+}
+
 #head {
 	text-align: center;
 }
@@ -117,7 +129,7 @@ body {
 	margin: 10px 10px 10px 5px;
 	background-color: rgb(238, 238, 237);
 	float: right;
-	line-height: 20px;
+	line-height: 25px;
 }
 
 #left_three {
@@ -128,8 +140,7 @@ body {
 #photostream {
 	width: 970px;
 	height: 150px;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin: 0px 10px 0px 10px;
 	background-color: rgb(243, 181, 98);	
 	border: 5px;
 	clear: both;
@@ -158,21 +169,17 @@ body {
 
 .pagecontent_events {
 	width: 960px;
-	margin-left: 10px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-right: 5px;
+	margin: 10px 5px 10px 10px;
 	padding: 10px;
 	border-color: rgb(140, 190, 178);
 	border: 0px;
 	background-color: rgb(238, 238, 237);
-	line-height: 20px;
+	line-height: 25px;
 }
 
 .pagecontent_events table {
 	width: 990px;
-	margin-left: -15px;
-	margin-bottom: -10px;
+	margin: 0px 0px -10px -15px;
 	border-collapse: collapse;
 	font-size: 14px;
 }
@@ -187,17 +194,29 @@ body {
 	padding: 10px;
 }
 
+/*---------------- GALLERY PAGE ----------------*/
+
+.pagecontent_gallery {
+	width: 960px;
+	margin: 10px;
+	padding: 10px;
+	border-color: rgb(140, 190, 178);
+	background-color: rgb(238, 238, 237);
+	text-align: center;
+}
+
+#gallery_slideshow {
+	width: 960px;
+	height: 600px;
+}
+
 /*---------------- HISTORY PAGE ----------------*/
 
 .pagecontent_history {
 	width: 960px;
-	margin-left: 10px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-right: 5px;
+	margin: 10px 5px 10px 10px;
 	padding: 10px;
 	border-color: rgb(140, 190, 178);
-	border: 0px;
 	background-color: rgb(238, 238, 237);
 	font-size: 14px;
 	line-height: 25px;
@@ -205,33 +224,42 @@ body {
 
 /*---------------- LINKS PAGE ----------------*/
 
-.pagecontent_links {
-	width: 650px;
-	float: right;
-	margin: 10px 10px 10px 10px;
+.pagecontent_links_1 {
+	width: 296px;
+	float: left;
+	margin: 10px 5px 10px 10px;
 	padding: 10px;
-
 	background-color: rgb(238, 238, 237);
 	text-align: center;
+	line-height: 25px;
 }
 
-#linkstitle {
-	padding: 30px 0px 5px 0px;
-}
-
-#jiveimage {
+.pagecontent_links_2 {
+	width: 302px;
 	float: left;
-	margin-left: 30px;
-	margin-top: 30px;
+	margin: 10px 5px 10px 5px;
+	padding: 10px;
+	background-color: rgb(238, 238, 237);
+	text-align: center;
+	line-height: 25px;
 }
 
-#linkspagetitle {
+.pagecontent_links_3 {
+	width: 302px;
+	float: left;
+	margin: 10px 10px 10px 5px;
+	padding: 10px;
+	background-color: rgb(238, 238, 237);
 	text-align: center;
+	line-height: 25px;
 }
 
 .pagelinks {
 	padding: 20px 0px 3px 0px;
+	text-decoration: underline;
 }
+
+.pagelinks 	a:link {color:orange;} a:visited {color:grey;}
 
 .linkdescription {
 	font-size: 12px;
@@ -241,28 +269,40 @@ body {
 
 #mailinglist p {
 	padding: 5px;
-}
-
-#submit	{
-	background-color: #808080;
-	color: white;
+	text-align: right;
+	padding-right: 150px;
 }
 
 #contactform p {
 	clear: both;
 	padding: 5px;
+	text-align: right;
+	padding-right: 150px;
 }
 
+#contactleft {
+	float: left;
+}
+
+#contactright {
+	float: right;
+}
 
 .pagecontent_contact_left {
 	width: 463px;
-	height: 500px;
-	float: left;
-	margin-left: 10px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-right: 5px;
-	padding: 10px;
+	height: 270px;
+	margin: 10px 5px 10px 10px;
+	padding: 10px 10px 5px 10px;
+	background-color: rgb(238, 238, 237);
+	font-size: 14px;
+	line-height: 25px;
+}
+
+.pagecontent_contact_left_bottom {
+	width: 463px;
+	height: 120px;
+	margin: 10px 5px 10px 10px;
+	padding: 10px 10px 5px 10px;
 	background-color: rgb(238, 238, 237);
 	font-size: 14px;
 	line-height: 25px;
@@ -270,64 +310,29 @@ body {
 
 .pagecontent_contact_right {
 	width: 463px;
-	height: 500px;
-	float: right;
-	margin-left: 5px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-right: 10px;
-	padding: 10px;
+	height: 270px;
+	margin: 10px 10px 10px 5px;
+	padding: 10px 10px 5px 10px;
 	background-color: rgb(238, 238, 237);
 	font-size: 14px;
 	line-height: 25px;
 }
 
-#contactleft {
-/*	width: 463px;
-	height: 500px;*/
-/*	float: left;*/
-/*	background-color: rgba(232, 251, 255, .5);
-	border: 1px;
-	border-top: 10px;
-	border-color: rgb(140, 190, 178);
-	border-style: solid;*/
-	margin-left: 10px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-right: 5px;
-	padding: 10px;
-}
-
-#contactright {
+.pagecontent_contact_right_bottom {
 	width: 463px;
-	height: 500px;
-	float: right;
-	background-color: rgba(232, 251, 255, .5);
-	border: 1px;
-	border-top: 10px;
-	border-color: rgb(140, 190, 178);
-	border-style: solid;
-	margin-right, margin-top, margin-bottom: 10px;
-	margin-left: 5px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-right: 10px;
-	padding: 10px;
+	height: 120px;
+	margin: 10px 10px 10px 5px;
+	padding: 10px 10px 5px 10px;
+	background-color: rgb(238, 238, 237);
+	font-size: 14px;
+	line-height: 25px;
 }
-
-textarea {
-	width: 300px;
-}
-
 
 /*---------------- REMOVAL PAGE ----------------*/
 
 .pagecontent_removal {
 	width: 960px;
-	margin-left: 10px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-right: 5px;
+	margin: 10px 5px 10px 10px;
 	padding: 10px;
 	border-color: rgb(140, 190, 178);
 	border: 0px;

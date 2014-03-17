@@ -7,6 +7,8 @@
 		<meta name= "description" content="Text" />
 		<meta name= "robots" content="all" />
 		<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
 		<title>Bude Jive Club - Contact</title>
 	</head>
 	<body>
@@ -26,46 +28,62 @@
 				<p>Clubs resumes Mon Sep 30th - 10 weeks for &pound;32 or 6 weeks for &pound;22!</p>
 			</div> <!-- newsBar Ends -->
 		</div> <!-- head Ends -->
-		<div class="pagecontent_contact_left">
-			<p class="header-text">Contact Us</p>
+		<div id="contactleft">
+			<div class="pagecontent_contact_left">
+				<p class="header-text">Contact Us</p>
 				<p>Fill in the form with any questions that you have.</p>
-					<form method="get" action="post">
-						<div id="contactform">
-							<p><label class="field" for="fname">Name:&nbsp;</label>
-								<input id="fname" name="fname" type="text" /></p>
-							<p><label class="field" for="subject">Subject&nbsp;</label>
-								<input name="subject" id="subject" type="text" /></p>
-							<p><label class="field2" for="question">Question:</label>
-								<textarea name="question" id="question" rows="6" cols="60"></textarea></p>
-							<p><input type="submit" id="submit" value="Submit" /></p>
-						</div> <!-- end of contactform -->
-					</form>
-				<p>Alternatively, you can get in contact with the following information.</p>
-				<p>Email: contactus@budejiveclub.com</p>
-				<p>Phone: 01726 879876</p>
-		</div> <!-- contactleft end -->
-		<div class="pagecontent_contact_right">
-			<p class="header-text">Mailing List</p>
+				<form method="get" action="post">
+					<div id="contactform">
+						<p><label class="field" for="fname">Name</label>
+							<input id="fname" name="fname" type="text" /></p>
+						<p><label class="field" for="subject">Subject</label>
+							<input name="subject" id="subject" type="text" /></p>
+						<p><label class="field2" for="question">Question</label>
+							<textarea name="question" id="question" rows="6" cols="60"></textarea></p>
+						<p><input type="submit" id="submit" value="Submit" /></p>
+					</div> <!-- end of contactform -->
+				</form>
+			</div> <!-- pagecontent_contact_left end -->
+			<div class="pagecontent_contact_left_bottom">
+				<p class="header-text">Alternative Contact Infomation</p>
+					<p>Alternatively, you can get in contact with the following information.</p>
+					<p>Email: contactus@budejiveclub.com</p>
+					<p>Phone: 01726 879876</p>
+			</div> <!-- pagecontent_contact_left_bottom end -->
+		</div> <!-- contactleft Ends -->
+		<div id="contactright">
+			<div class="pagecontent_contact_right">
+				<p class="header-text">Mailing List</p>
 				<p>Enter your information below to be added to the mailing list. We will send out information about upcoming events and any changes of dates and time.</p>
-					<form action="" method="post">
-						<div id="mailinglist">
-							<p><label class="field" for="firstname">First Name:</label> 
-								<input type="text" id="firstname"/></p>
-							<p><label class="field" for="lastname">Last Name:</label>
-								<input type="text" id="lastname"/></p>
-							<p><label class="field" for="email">Email Address:</label>
-								<input type="text" id="email"/></p>
-							<p><label class="field" for="retypeemail">Retype Email:</label>
-								<input type="text" id="retypeemail"/>
-								<input type="submit" value="Submit" /></p>
-						</div> <!-- end of mailinglist -->
-					</form>
-				<p>If you want to remove yourself from the mailing list, click <a href="./removal.html">HERE.</a></p>
-			</div> <!-- contactright end -->
+				<form action="" method="post">
+					<div id="mailinglist">
+						<p><label class="field" for="firstname">First Name</label> 
+							<input type="text" id="firstname"/></p>
+						<p><label class="field" for="lastname">Last Name</label>
+							<input type="text" id="lastname"/></p>
+						<p><label class="field" for="email">Email Address</label>
+							<input type="text" id="email"/></p>
+						<p><label class="field" for="retypeemail">Retype Email</label>
+							<input type="text" id="retypeemail"/></p>
+						<p><input type="submit" id="submit" value="Submit" /></p>
+					</div> <!-- end of mailinglist -->
+				</form>
+			</div> <!-- pagecontent_contact_right end -->
+			<div class="pagecontent_contact_right_bottom">
+				<p class="header-text">Unsubscribe from Mailing List</p>
+				<p class="content">Please enter your email address to be removed from our mailing list</p>
+				<p><label class="field" for="email">Email Address</label>
+					<input type="text" id="email"/><p>
+				<p><input type="submit" id="submit" value="Submit" /></p>
+				</p>
+			</div> <!-- pagecontent_contact_right_bottom end -->
+		</div> <!-- contactright Ends -->
 		<div id="footer">
-			<a href="https://picasaweb.google.com/114490345836729590787" target="_blank"><img src="images/picasa.png" alt="Picasa Logo">
-			<a href="https://www.facebook.com/pages/Bude-Jive-Club/165490703468377" target="_blank"><img src="images/facebook.png" alt="Facbook Logo">
-			<a href="http://www.youtube.com/user/Budejive" target="_blank"><img src="images/youtube2.png" alt="Youtube Logo">
+			<p>
+				<a href="https://picasaweb.google.com/114490345836729590787" ><img src="images/picasa.png" alt="Picasa Logo" /></a>
+				<a href="https://www.facebook.com/pages/Bude-Jive-Club/165490703468377" ><img src="images/facebook.png" alt="Facbook Logo" /></a>
+				<a href="http://www.youtube.com/user/Budejive" ><img src="images/youtube2.png" alt="Youtube Logo" /></a>
+			</p>
 		</div> <!-- footer end -->
 	</body>
 </html>	
