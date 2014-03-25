@@ -1,0 +1,466 @@
+/* CSS created by Phoenix Designs. This cannot be copied unless permission is gained. */
+
+/*------------------------------------------------------------+
+|	CSS Developmpted by Phoenix Designs
+|	Copyright (C) 2014 Phoenix Designs
+|	phoenixdesigns.cornwall@gmail.com
++-------------------------------------------------------------+
+|	This CSS file and all of the content has been
+|	developed by Phoenix Designs. This cannot be copied
+|   unless permission is gained.
++-------------------------------------------------------------*/
+
+/*---------------- MAIN PAGE LAYOUT & STYLE ----------------*/
+
+* { margin: 0; padding: 0; font-family: Arial, sans-serif; }
+
+html { 
+	background-color: rgb(226, 225, 227);
+}
+
+body {
+	width: 1000px;
+	margin: auto;
+	background-color: white;
+}
+
+.header-text {
+	background-color: rgb(243, 181, 98);
+	margin: -10px -10px 0px -10px;
+	font-size: 17px;
+	color: white;
+	padding: 1px 0px 1px 10px;
+}
+
+.header-text2 {
+	background-color: rgb(243, 181, 98);
+	font-size: 17px;
+	color: white;
+	padding: 1px 0px 1px 10px;
+}
+
+.header-text3 {
+	background-color: rgb(243, 181, 98);
+	margin: -10px -10px 0px -10px;
+	font-size: 17px;
+	color: white;
+	padding: 1px 0px 1px 10px;
+	text-align: center;
+}
+
+.content {
+	margin: 10px;
+}	
+
+/*---------------- PAGE NAV BAR ----------------*/
+
+#mainNav ul {
+	list-style-type: none;
+	text-align: center;
+	background-image: url(images/navbackground.png);
+	font-size: 20px;
+	margin-top: -4px;
+	padding: 15px;
+	font-size: 15px;
+}
+
+#mainNav ul li {
+	display: inline;
+}
+
+#mainNav ul li a {
+	padding: 50px;
+	color: white;
+}
+
+#mainNav a:hover {color:orange;}
+
+/*---------------- NEWS BAR ----------------*/
+
+#newsBar {
+	background-color: orange;
+	color: white;
+	padding: 2px;
+}
+
+#newsBar2 {
+	background-color: red;
+	color: white;
+	padding: 2px;
+}
+
+#newsBar3 {
+	background-color: green;
+	color: white;
+	padding: 2px;
+}
+
+#body_head {
+	text-align: center;
+}
+
+/*---------------- FOOTER ----------------*/
+
+#body_footer {
+	padding: 5px 0px 2px 0px;
+	margin: 10px 0px -20px 0px;
+	background-image: url(images/footimage.png);
+	text-align: center;
+	clear: both;
+}
+
+#footer ul {
+	list-style-type: none;
+}
+
+#footer ul li {
+	display: inline;
+}
+
+#footer ul li, a{
+	text-decoration: none;
+	padding: 20px 20px 0px 20px;
+}
+
+/*---------------- HOMEPAGE PAGE ----------------*/
+
+.pagecontent_homepage_left {
+	width: 608px;
+	margin: 10px 5px 10px 10px;
+	padding: 10px;
+	background-color: rgb(238, 238, 237);
+	font-size: 14px;
+	line-height: 25px;
+}
+
+#pagecontent_homepage_right {
+	width: 340px;
+	margin: 10px 10px 10px 5px;
+	background-color: rgb(238, 238, 237);
+	float: right;
+	line-height: 25px;
+}
+
+#left_three {
+	float: left;
+	clear: both;
+}
+
+#photostream {
+	width: 970px;
+	height: 150px;
+	margin: 0px 10px 0px 10px;
+	background-color: rgb(243, 181, 98);	
+	border: 5px;
+	clear: both;
+	overflow: hidden;
+	border-color: rgb(243, 181, 98);
+	border-style: solid;
+}
+
+#pagecontent_homepage_right table {
+	border-collapse:collapse;
+	margin: 0px -5px -5px -5px;
+	font-size: 14px;
+}
+
+#pagecontent_homepage_right table, 
+#pagecontent_homepage_right td, 
+#pagecontent_homepage_right th {
+	border: 5px solid white;
+}
+
+#pagecontent_homepage_right td {
+	padding:10px;
+}
+
+/*---------------- EVENTS PAGE ----------------*/
+
+
+.pagecontent_events {
+	width: 960px;
+	margin: 10px 5px 10px 10px;
+	padding: 10px;
+	border-color: rgb(140, 190, 178);
+	border: 0px;
+	background-color: rgb(238, 238, 237);
+	line-height: 25px;
+	clear: both;
+}
+
+.pagecontent_events_main_1 {
+	width: 217px;
+	margin: 10px 5px 10px 10px;
+	padding: 10px;
+	background-color: rgb(238, 238, 237);
+	line-height: 25px;
+	float: left;
+}
+
+.pagecontent_events_main_2 {
+	width: 217px;
+	margin: 10px 5px 10px 5px;
+	padding: 10px;
+	background-color: rgb(238, 238, 237);
+	line-height: 25px;
+	float: left;
+}
+
+.pagecontent_events_main_3 {
+	width: 217px;
+	margin: 10px 5px 10px 5px;
+	padding: 10px;
+	background-color: rgb(238, 238, 237);
+	line-height: 25px;
+	float: left;
+
+}
+
+.pagecontent_events_main_4 {
+	width: 217px;
+	margin: -8px 10px 10px 5px;
+	padding: 10px;
+	background-color: rgb(238, 238, 237);
+	line-height: 25px;
+	float: left;
+
+}
+
+.pagecontent_events table {
+	width: 990px;
+	margin: 0px 0px -10px -15px;
+	border-collapse: collapse;
+	font-size: 14px;
+}
+
+.pagecontent_events table, 
+.pagecontent_events td, 
+.pagecontent_events th {
+	border: 5px solid white;
+}
+
+.pagecontent_events td {
+	padding: 10px;
+}
+
+#events_table {
+	line-height: 60px;
+}
+
+.events_table_header {
+	text-align: center;
+	text-decoration: underline;
+	font-size: 20px;
+}
+
+.events_table_cols1 {
+	text-align: center;
+}
+
+/*---------------- GALLERY PAGE ----------------*/
+
+.pagecontent_gallery {
+	width: 465px;
+	margin: 10px 5px 10px 10px;
+	padding: 10px;
+	border-color: rgb(140, 190, 178);
+	background-color: rgb(238, 238, 237);
+	line-height: 25px;
+	float: left;
+}
+
+.pagecontent_video {
+	width: 465px;
+	margin: 10px 10px 10px 5px;
+	padding: 10px;
+	border-color: rgb(140, 190, 178);
+	background-color: rgb(238, 238, 237);
+	line-height: 25px;
+	float: right;
+}
+
+#gallery_slideshow {
+	width: 465px;
+	height: 320px;
+	padding-top: 10px;
+}
+
+#feature_video {
+	width: 465px;
+	height: 320px;
+	padding-top: 10px;
+}
+
+/*---------------- HISTORY PAGE ----------------*/
+
+.pagecontent_history {
+	width: 960px;
+	margin: 10px 5px 10px 10px;
+	padding: 10px;
+	border-color: rgb(140, 190, 178);
+	background-color: rgb(238, 238, 237);
+	font-size: 14px;
+	line-height: 25px;
+}
+
+/*---------------- LINKS PAGE ----------------*/
+
+.pagecontent_links_1 {
+	width: 296px;
+	float: left;
+	margin: 10px 5px 10px 10px;
+	padding: 10px;
+	background-color: rgb(238, 238, 237);
+	text-align: center;
+	line-height: 25px;
+}
+
+.pagecontent_links_2 {
+	width: 302px;
+	float: left;
+	margin: 10px 5px 10px 5px;
+	padding: 10px;
+	background-color: rgb(238, 238, 237);
+	text-align: center;
+	line-height: 25px;
+}
+
+.pagecontent_links_3 {
+	width: 302px;
+	float: left;
+	margin: 10px 10px 10px 5px;
+	padding: 10px;
+	background-color: rgb(238, 238, 237);
+	text-align: center;
+	line-height: 25px;
+}
+
+.pagelinks {
+	padding: 20px 0px 3px 0px;
+	text-decoration: underline;
+}
+
+.pagelinks 	a:link {color:orange;} a:visited {color:grey;}
+
+.linkdescription {
+	font-size: 12px;
+}
+
+/*---------------- CONTACT PAGE ----------------*/
+
+.contact-head{
+	margin-top: 20px;
+}
+
+.contact-head-2{
+	margin-bottom: 20px;
+}
+
+#contactleft {
+	float: left;
+}
+
+#contactright {
+	float: right;
+}
+
+.pagecontent_contact_left {
+	width: 463px;
+	height: 420px;
+	margin: 10px 5px 10px 10px;
+	padding: 10px 10px 5px 10px;
+	background-color: rgb(238, 238, 237);
+	font-size: 14px;
+	line-height: 25px;
+	text-align: center;
+}
+
+.pagecontent_contact_right_top {
+	width: 463px;
+	height: 140px;
+	margin: 10px 10px 10px 5px;
+	padding: 10px 10px 5px 10px;
+	background-color: rgb(238, 238, 237);
+	font-size: 14px;
+	line-height: 25px;
+	text-align: center;
+}
+
+.pagecontent_contact_right {
+	width: 463px;
+	height: 255px;
+	margin: 10px 10px 10px 5px;
+	padding: 10px 10px 5px 10px;
+	background-color: rgb(238, 238, 237);
+	font-size: 14px;
+	line-height: 25px;
+	text-align: center;
+}
+
+#mc_embed_signup .button {
+	background-color: #aaa;
+	border: 0 none;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-size: 14px;
+	height: 32px;
+	padding: 7px;
+	margin: 10px 0px 30px 0px;
+	width: 150px;
+}
+
+#mc_embed_signup .button:hover {
+	background-color:#777;
+}
+
+#mc_embed_signup input.email {
+	font-size: 14px;
+	padding: 7px;
+	margin: 20px 5px 5px 5px;
+	width: 400px;
+	text-align: center;
+}
+
+#signup-bot-prevent{
+position: absolute;
+left: -5000px;
+}
+
+#contactform .button {
+	background-color: #aaa;
+	border: 0 none;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-size: 14px;
+	height: 32px;
+	padding: 7px;
+	margin: 10px 0px 30px 0px;
+	width: 150px;
+}
+
+#contactform .button:hover {
+	background-color:#777;
+}
+
+textarea.question{
+	height: 100px;
+}
+
+#contactform input.email, input.subject, textarea.question{
+	font-size: 14px;
+	padding: 7px;
+	margin: 5px 5px 5px 5px;
+	width: 400px;
+	text-align: center;
+}
+
+#contactform input.fname{
+	font-size: 14px;
+	padding: 7px;
+	margin: 20px 5px 5px 5px;
+	width: 400px;
+	text-align: center;
+}
+
+/*---- AMENDED CODED UNDER THIS LINE ----*/
+

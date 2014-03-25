@@ -245,11 +245,7 @@ body {
 
 #submit	{
 	background-color: #808080;
-	border-color: #808080;
-	width: 100px;
-	padding: 5px 5px 5px 5px;
 	color: white;
-
 }
 
 #contactform p {
@@ -344,7 +340,7 @@ textarea {
 #loginform {
 	background-color: #eeeeed;
 	width: 368px;
-	margin: 200 auto;
+	margin: 142 auto 210 auto;
 	padding: 20px 40px 100px 40px;
 }
 
@@ -385,6 +381,12 @@ input#logintextbox {
 	color: white;
 	margin-top: 30px;
 	margin-right: 50px;
+}
+
+#errormsg {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: -80px;
 }
 
 /*------------ DASHBOARD HOMEPAGE & HISTORY ----------*/
@@ -545,6 +547,7 @@ input#logintextbox {
 	text-align: left;
 }
 
+/*------------ NEWSBAR ----------*/
 
 
 
