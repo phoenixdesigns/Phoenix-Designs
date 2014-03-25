@@ -39,6 +39,15 @@ body {
 	padding: 1px 0px 1px 10px;
 }
 
+.header-text3 {
+	background-color: rgb(243, 181, 98);
+	margin: -10px -10px 0px -10px;
+	font-size: 17px;
+	color: white;
+	padding: 1px 0px 1px 10px;
+	text-align: center;
+}
+
 .content {
 	margin: 10px;
 }	
@@ -86,13 +95,13 @@ body {
 	padding: 2px;
 }
 
-#head {
+#body_head {
 	text-align: center;
 }
 
 /*---------------- FOOTER ----------------*/
 
-#footer {
+#body_footer {
 	padding: 5px 0px 2px 0px;
 	margin: 10px 0px -20px 0px;
 	background-image: url(images/footimage.png);
@@ -167,6 +176,7 @@ body {
 
 /*---------------- EVENTS PAGE ----------------*/
 
+
 .pagecontent_events {
 	width: 960px;
 	margin: 10px 5px 10px 10px;
@@ -175,6 +185,45 @@ body {
 	border: 0px;
 	background-color: rgb(238, 238, 237);
 	line-height: 25px;
+	clear: both;
+}
+
+.pagecontent_events_main_1 {
+	width: 217px;
+	margin: 10px 5px 10px 10px;
+	padding: 10px;
+	background-color: rgb(238, 238, 237);
+	line-height: 25px;
+	float: left;
+}
+
+.pagecontent_events_main_2 {
+	width: 217px;
+	margin: 10px 5px 10px 5px;
+	padding: 10px;
+	background-color: rgb(238, 238, 237);
+	line-height: 25px;
+	float: left;
+}
+
+.pagecontent_events_main_3 {
+	width: 217px;
+	margin: 10px 5px 10px 5px;
+	padding: 10px;
+	background-color: rgb(238, 238, 237);
+	line-height: 25px;
+	float: left;
+
+}
+
+.pagecontent_events_main_4 {
+	width: 217px;
+	margin: -8px 10px 10px 5px;
+	padding: 10px;
+	background-color: rgb(238, 238, 237);
+	line-height: 25px;
+	float: left;
+
 }
 
 .pagecontent_events table {
@@ -192,6 +241,20 @@ body {
 
 .pagecontent_events td {
 	padding: 10px;
+}
+
+#events_table {
+	line-height: 60px;
+}
+
+.events_table_header {
+	text-align: center;
+	text-decoration: underline;
+	font-size: 20px;
+}
+
+.events_table_cols1 {
+	text-align: center;
 }
 
 /*---------------- GALLERY PAGE ----------------*/
@@ -285,17 +348,12 @@ body {
 
 /*---------------- CONTACT PAGE ----------------*/
 
-#mailinglist p {
-	padding: 5px;
-	text-align: right;
-	padding-right: 150px;
+.contact-head{
+	margin-top: 20px;
 }
 
-#contactform p {
-	clear: both;
-	padding: 5px;
-	text-align: right;
-	padding-right: 150px;
+.contact-head-2{
+	margin-bottom: 20px;
 }
 
 #contactleft {
@@ -308,54 +366,100 @@ body {
 
 .pagecontent_contact_left {
 	width: 463px;
-	height: 270px;
+	height: 420px;
 	margin: 10px 5px 10px 10px;
 	padding: 10px 10px 5px 10px;
 	background-color: rgb(238, 238, 237);
 	font-size: 14px;
 	line-height: 25px;
+	text-align: center;
 }
 
-.pagecontent_contact_left_bottom {
+.pagecontent_contact_right_top {
 	width: 463px;
-	height: 120px;
-	margin: 10px 5px 10px 10px;
+	height: 140px;
+	margin: 10px 10px 10px 5px;
 	padding: 10px 10px 5px 10px;
 	background-color: rgb(238, 238, 237);
 	font-size: 14px;
 	line-height: 25px;
+	text-align: center;
 }
 
 .pagecontent_contact_right {
 	width: 463px;
-	height: 270px;
+	height: 255px;
 	margin: 10px 10px 10px 5px;
 	padding: 10px 10px 5px 10px;
 	background-color: rgb(238, 238, 237);
 	font-size: 14px;
 	line-height: 25px;
+	text-align: center;
 }
 
-.pagecontent_contact_right_bottom {
-	width: 463px;
-	height: 120px;
-	margin: 10px 10px 10px 5px;
-	padding: 10px 10px 5px 10px;
-	background-color: rgb(238, 238, 237);
+#mc_embed_signup .button {
+	background-color: #aaa;
+	border: 0 none;
+	color: #FFFFFF;
+	cursor: pointer;
 	font-size: 14px;
-	line-height: 25px;
+	height: 32px;
+	padding: 7px;
+	margin: 10px 0px 30px 0px;
+	width: 150px;
 }
 
-/*---------------- REMOVAL PAGE ----------------*/
+#mc_embed_signup .button:hover {
+	background-color:#777;
+}
 
-.pagecontent_removal {
-	width: 960px;
-	margin: 10px 5px 10px 10px;
-	padding: 10px;
-	border-color: rgb(140, 190, 178);
-	border: 0px;
-	background-color: rgb(238, 238, 237);
-	line-height: 25px;
+#mc_embed_signup input.email {
+	font-size: 14px;
+	padding: 7px;
+	margin: 20px 5px 5px 5px;
+	width: 400px;
+	text-align: center;
+}
+
+#signup-bot-prevent{
+position: absolute;
+left: -5000px;
+}
+
+#contactform .button {
+	background-color: #aaa;
+	border: 0 none;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-size: 14px;
+	height: 32px;
+	padding: 7px;
+	margin: 10px 0px 30px 0px;
+	width: 150px;
+}
+
+#contactform .button:hover {
+	background-color:#777;
+}
+
+textarea.question{
+	height: 100px;
+}
+
+#contactform input.email, input.subject, textarea.question{
+	font-size: 14px;
+	padding: 7px;
+	margin: 5px 5px 5px 5px;
+	width: 400px;
+	text-align: center;
+}
+
+#contactform input.fname{
+	font-size: 14px;
+	padding: 7px;
+	margin: 20px 5px 5px 5px;
+	width: 400px;
+	text-align: center;
 }
 
 /*---- AMENDED CODED UNDER THIS LINE ----*/

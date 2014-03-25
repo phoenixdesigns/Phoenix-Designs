@@ -3,11 +3,6 @@ session_start();
 include "Functions.php";
 ?>
 
-<?php
-sesion_start();
-include "Functions.php";
-?>
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" >
 	<head>
@@ -34,7 +29,7 @@ include "Functions.php";
 					<li><a href="contact.php">Contact</a></li>
 				</ul>
 			</div> <!-- mainNav Ends -->
-			<div id="newsBar3">
+			<div id="newsBar">
 				<?php
 					news_bar();
 				?>
@@ -43,41 +38,53 @@ include "Functions.php";
 		<div id="left_three">
 			<div class="pagecontent_homepage_left">
 				<p class="header-text">Bude Jive Club</p>
-					<p class="content">Bude Jive Club has been in existence for several years and is continuing to grow in popularity; we meet at The Parkhouse Centre, Bude on Monday nights. The interest in our club arises from our combining two dance styles, traditional rock and roll and jive.</p>
+					<p class="content">
+						<?php
+							homepage_details_1();
+						?>
+					</p>
 			</div> <!-- miancontent1 -->
 			<div class="pagecontent_homepage_left">
 				<p class="header-text">What do we offer?</p>
-					<p class="content">The club regularly offers courses of 'beginners and improvers' lessons. On a regular basis, guest instructors give lessons for the 'improvers'. Rock and rollers who learned to dance in their youth are very welcome at any of the events held by the club.</p>
+					<p class="content">
+						<?php
+							homepage_details_2();
+						?>
+					</p>
 			</div> <!-- miancontent2 -->
 			<div class="pagecontent_homepage_left">
 				<p class="header-text">Our Club</p>
-					<p class="content">Bude Jive Club has fast gained a reputation as a friendly club and has a very varied social diary supported by Rock and Roll club members throughout the southwest.</p>
+					<p class="content">
+						<?php
+							homepage_details_3();
+						?>
+					</p>
 			</div> <!-- miancontent3 -->	
 		</div> <!-- left_three end -->
 		<div id="pagecontent_homepage_right">		
 			<p class="header-text2">Upcoming Events</p>
 			<table id="homepage_table">
-				<tr>
+				<tr class="events_table_header">
 					<td>Date</td>
 					<td>Time</td>
 					<td>Discription</td>
 				</tr>
-				<tr>
+				<tr class="events_table_cols1">
 					<td>Sat 09/02/13</td>
 					<td>8pm</td>
 					<td>Valentines - The Kingrats + DJ</td>
 				</tr>
-				<tr>
+				<tr class="events_table_cols1">
 					<td>Sat 13/04/13</td>
 					<td>7:30pm</td>
 					<td>Play It Cool &amp; Bernie Woods + DJ</td>
 				</tr>
-				<tr>
+				<tr class="events_table_cols1">
 					<td>Sat 17/08/13</td>
 					<td>7:30pm</td>
 					<td>Carnival Dance (59 Ford) + DJ</td>
 				</tr>
-				<tr>
+				<tr class="events_table_cols1">
 					<td>Sat 19/10/13</td>
 					<td>7:30pm</td>
 					<td>The Alligators + DJ</td>
