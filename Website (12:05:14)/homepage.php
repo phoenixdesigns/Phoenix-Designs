@@ -65,12 +65,24 @@ include "Functions.php";
 			<p class="header-text2">Upcoming Events</p>
 			<table id="events_table">
 				<tr class="events_table_header">
-					<td>Date</td>
-					<td>Time</td>
-					<td>Discription</td>
-					<?php
-						sat_events();
-					?>
+				<td>Date</td>
+				<td>Time</td>
+				<td>Discription</td>
+				<tr>
+					<td>mon 09/02/13</td>
+					<td>8pm</td>
+					<td>Valentines - The Kingrats + DJ</td>
+				</tr>
+				<tr>
+					<td>mon 13/04/13</td>
+					<td>7:30pm</td>
+					<td>Play It Cool &amp; Bernie Woods + DJ</td>
+				</tr>
+				<tr>
+					<td>mon 17/08/13</td>
+					<td>7:30pm</td>
+					<td>Carnival Dance (59 Ford) + DJ</td>
+				</tr>
 			</table>
 		</div> <!-- maincontent4 end-->
 		<p><img src="images/photostream.png" alt="Jive, Placeholder" /></p>
